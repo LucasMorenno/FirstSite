@@ -1,7 +1,3 @@
-/*var a = window.document.getElementsByClassName('d1')[0]
-a.addEventListener('mouseenter', entrar)
-a.addEventListener('mouseout', sair)*/
-
 function entrar(obj) {
     obj.style.boxShadow = '3px 3px 3px rgba(149, 100, 73, .5)';
     obj.style.borderRadius = '5px';
