@@ -1,0 +1,232 @@
+body {
+    background: rgb(228, 210, 200);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    height: 4vw;
+}
+
+div#tit {
+    float: left;
+    width: 12%;
+    height: 4vw;
+    text-align: center;
+}
+
+img#ramoe {
+    float: left;
+    height: 4vw; 
+}
+
+h1#h1 {
+    margin-top: 0;
+    font: normal 1.5vw Candara;
+    color: rgb(184, 109, 103);
+    height: 4vw;
+}
+
+img#ramod {
+    height: 4vw;
+    float: right;
+}
+
+div#expl {
+    margin-left: calc(30% / 2);
+    width: 70%;
+    height: 4vw;
+}
+
+h4#h4 {
+    text-align: center;
+    font: normal 1.2vw Candara;
+    color: rgb(107, 112, 92);
+    height: 4vw;
+}
+
+div#info {
+    position: fixed;
+    top: 2.5vw;
+    right: 1vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 20px;
+    color: white;
+    font: normal 10pt;
+    background: white;
+    text-align: justify;
+    vertical-align: center;
+}
+
+p.para {
+    font: normal 1.2vw Candara;
+    margin: 15px;
+}
+
+img#infoimg {
+    position: fixed;
+    top: 3vw;
+    right: 1.5vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+section#s0 {
+    position: fixed;
+    top: 7vw;
+    margin-top: 1%;
+    width: 99%;
+    border-radius: 10px;
+}
+
+section#s1 {
+    position: fixed;
+    top: 7vw;
+    margin-top: 1%;
+    width: 99%;
+    border-radius: 10px;
+}
+
+section#s3 {
+    position: fixed;
+    top: 70%;
+    left: 35%;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.clear{
+    clear:both;
+    color:rgb(70, 142, 236);
+    text-align: center;
+}
+
+div.d1 {
+    width: calc(94%/5);
+    min-width: 130px;
+    height: 22vw;
+    min-height: 160px;
+    max-height: 340px;
+    margin-left: 1%;
+    border-radius: 10px;
+    float: left;
+    background: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.d2 {
+    width: calc(94%/5);
+    min-width: 130px;
+    height: 22vw;
+    min-height: 140px;
+    max-height: 340px;
+    margin-left: 1%;
+    border-radius: 10px;
+    float: left;
+    background: #B86D67;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.d3 {
+    width: calc(80%/5);
+    height: 5vw;
+    border-radius: 50px;
+    margin-left: 1%;
+    float: left;
+    background: rgb(107, 112, 92);
+    text-align: center;
+    font: normal 1.2vw Candara;
+    color: white;    
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+img.img {
+    background: #ffff0000;
+    width: 90%;
+    border-radius: 15px;
+}
+
+p.dica {
+    font: normal 1.2vw Candara;
+}
+
+p.dica2 {
+    position: relative;
+    top: 35%;
+    font: normal 2vw Candara;
+    color: white;
+}
+
+section#s2 {
+    background: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 60%;
+    left: 5%;
+    width: 20%;
+    height: 31vh;
+    max-height: fit-content;
+    text-align: center;
+}
+
+div#output {
+    margin: 0 auto;
+    background: rgba(107, 112, 92, 0.274);
+    border-radius: 10px;
+    width: 95%;
+    height: 61%;
+}
+p#um {
+    position: relative;
+    top: 8%;
+}
+
+input.inp {
+    position: fixed;
+    top: 61vh;
+    margin-left: -9%;
+    width: 13%;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    font: normal 1vw Candara;
+    text-align: center;
+    vertical-align: center;
+}
+
+input.sub {
+    position: fixed;
+    top: 61vh;
+    height: 3vh;
+    font: normal 1vw Candara;
+    margin-left: 5.5%;
+    text-align: center;
+    vertical-align: center;
+}
+
+p#saldo {
+    position: fixed;
+    left: 28%;
+    top: 68%;
+    background: white;
+    padding: 5px;
+    border-radius: 100px;
+    width:4vw;
+    height: 4vw;
+}
+footer {
+    color: white;
+    position: fixed;
+    left: 46%;
+    bottom: 1px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1px;
+}

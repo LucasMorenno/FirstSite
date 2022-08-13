@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div id="tit">
+            <img id="ramoe" src="ramoesquerdo.png" alt="ramod">
+            <img id="ramod" src="ramodireito.png" alt="ramod">
+            <h1 id="h1">
+                Surpresa 
+                <br>9 anos
+            </h1>
+        </div> 
+        <div id="expl">
+            <h4 id="h4">Texto utilizado para explicar inicialmente o contexto do <strong>jogo</strong>.
+                Que foi feito para descobrir o que íriamos fazer para comemorar.</br>
+                Explicando melhor a dinâmica no <strong>ícone informativo</strong>.
+            </h4>            
+        </div>
+        
+    </header>
+    <section id="s0">
+        <div class="d1" id="d1" 
+        onmouseenter="entrar(this)"
+        onmouseout="sair(this)">
+            <p><img class="img" id="nunca" src="imagem.png"></p>
+            <p class="dica">Texto explicando a <strong>primeira dica.</strong></p>
+        </div>
+
+        <div class="d1" id="d2"
+        onmouseenter="entrar(this)"
+        onmouseout="sair(this)">
+            <p><img class="img" id="ban" src="imagem.png"></p>
+            <p class="dica">Texto explicando a <strong>segunda dica.</strong></p>
+        </div>
+
+        <div class="d1" id="d3"
+        onmouseenter="entrar(this)"
+        onmouseout="sair(this)">
+            <p><img class="img" id="igreja" src="imagem.png"></p>
+            <p class="dica">Texto explicando a <strong>terceira dica.</strong></p>
+        </div>
+
+        <div class="d1" id="d4"
+        onmouseenter="entrar(this)"
+        onmouseout="sair(this)">
+            <p><img class="img" id="satelite" src="imagem.png"></p>
+            <p class="dica">Texto explicando a <strong>quarta dica.</strong></p>
+        </div>
+
+        <div class="d1" id="d5"
+        onmouseenter="entrar(this)"
+        onmouseout="sair(this)">
+            <p><img class="img" id="uva" src="imagem.png"></p>
+            <p class="dica">Texto explicando a <strong>quinta dica.</strong></p>
+        </div>
+        
+    <p class="clear"></p>
+    </section>
+
+    <section id="s1">
+        <div class="d2" id="d21" 
+        onclick="sumir(this)"> 
+            <p class="dica2">Dica A</p>
+        </div>
+
+        <div class="d2" id="d22"
+        onclick="sumir(this)"> 
+            <p class="dica2">Dica B</p>
+        </div>
+
+        <div class="d2" id="d23"
+        onclick="sumir(this)"> 
+            <p class="dica2">Dica C</p>
+        </div>
+
+        <div class="d2" id="d24"
+        onclick="sumir(this)"> 
+            <p class="dica2">Dica D</p>
+        </div>
+
+        <div class="d2" id="d25"
+        onclick="sumir(this)"> 
+            <p class="dica2">Dica E</p>
+        </div>
+        
+    <p class="clear"></p>
+    </section>
+    
+    <div id="info" 
+    onmouseenter="contexto()" 
+    onmouseout="branco()" 
+    onmousemove="contexto()">
+    <img id="infoimg" src="info.png" alt="ramod">
+        <p class="para" id="p1">
+        </p>
+    </div>
+
+    
+    <p></p>
+    
+
+    <section id="s2"> 
+        <input class="inp" type="text" id="inp" placeholder="Digite sua resposta aqui">
+        <input class="sub" type="submit" onclick="capturar()" value="Enviar">
+        <div id="dres">
+            <p class="dica"><br>Respostas enviadas</p>
+            <p class="dica" id="saldo">Dicas <br></p>
+        </div>
+        <div id="output">
+            <p id="um">
+            
+            </p>
+        </div>
+    </section>
+
+    
+    
+    <section id="s3">
+        <div class="d3" id="d31" 
+        onclick="bonus(this)"> Bônus 1
+        </div>
+
+        <div class="d3" id="d32"
+        onclick="bonus(this)"> Bônus 2
+        </div>
+
+        <div class="d3" id="d33"
+        onclick="bonus(this)"> Bônus 3
+        </div>
+
+        <div class="d3" id="d34"
+        onclick="bonus(this)"> Bônus 4
+        </div>
+
+        <div class="d3" id="d35"
+        onclick="bonus(this)"> Bônus 5
+        </div>
+        
+    <p class="clear"></p>
+    </section>
+
+    <footer>
+        <p>&copy; morennapp</p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
